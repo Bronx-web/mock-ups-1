@@ -8,7 +8,7 @@
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #333;
-  background-color: #fcfaee;
+  background-color: #fcf28e;
 }
 
 .container {
@@ -73,7 +73,7 @@ nav {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(rgba(61,61,60,0.199), rgba(0,0,0,0.445));
+  background: linear-gradient(rgba(61,61,60,0.021), rgba(214, 255, 31, 0.062));
 }
 
 .hero-content-box {
@@ -904,4 +904,5 @@ footer {
   gap: 5px;
   transition: transform 0.3s ease;
 }
+
 
