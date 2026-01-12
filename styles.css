@@ -8,7 +8,7 @@
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #333;
-  background-color: #fcf28e;
+  background-color: #fcfaee;
 }
 
 .container {
@@ -904,6 +904,7 @@ footer {
   gap: 5px;
   transition: transform 0.3s ease;
 }
+
 
 
 
