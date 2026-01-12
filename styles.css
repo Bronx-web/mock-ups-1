@@ -272,7 +272,7 @@ nav {
 
 /* ========= OUR WORK CAROUSEL ========= */
 .our-work-card {
-  background: #fcfcf6;
+  background: #fcfaee;
   border-radius: 20px;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.12);
   border: 1px solid rgba(0,0,0,0.03);
@@ -904,6 +904,7 @@ footer {
   gap: 5px;
   transition: transform 0.3s ease;
 }
+
 
 
 
