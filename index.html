@@ -38,7 +38,7 @@
     <!-- WHY CHOOSE US -->
     <section class="section why-choose-us">
         <div class="container">
-            <h2 class="section-title">Easy Online Booking</h2>
+            <h2 class="section-title">Are You Looking For?</h2>
             <div class="card-grid">
                 <div class="card why-choose-us-card">
                     <div class="card-content">
@@ -109,7 +109,18 @@
                         <a href="contact.html" class="service-btn">Book Now <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
-            </div>
+
+        <div class="service-card">
+                <div class="service-image">
+                    <img src="exterior-wash-placeholder.png" alt="Exterior Wash">
+                </div>
+                <div class="service-content">
+                    <h3>Home Exterior Wash</h3>
+                    <p>Home owners proven to increase longevity. Give your home a full Exterior Wash.</p>
+                    <a href="contact.html" class="service-btn">Book Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+             </div>
+           </div>
         </div>
     </section>
 
@@ -125,12 +136,9 @@
 
     <!-- OUR REVIEWS SECTION -->
     <div class="why-container" style="margin-top: 60px;">
-    <div class="container">
-        <div class="review-carousel-wrapper">
-            <div class="review-carousel">
-                <div class="review-row">
-                    <div class="review-slide active">
-                        <div class="card review-card" style="display: inline-block; max-width: 360px; margin: 0 16px 24px;">
+        <div class="container">
+                <div class="review-row" style="display: flex; justify-content: center; @media (min-width: 768px) { justify-content: center; }">
+                   <div class="card review-card" style="display: inline-block; max-width: 360px; margin: 0 16px 24px;">
                             <div class="map-container">
                                 <div class="review-header">
                                     <img src="profile-pic.png" alt="Google Review Profile Picture" style="width: 40px; height: 40px; border-radius: 50%; margin-right: 16px;">
@@ -145,7 +153,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="review-slide">
+                    <div class="review-row" style="display: flex; justify-content: center; @media (min-width: 768px) { justify-content: center; }">
                         <div class="card review-card" style="display: inline-block; max-width: 360px; margin: 0 16px 24px;">
                             <div class="map-container">
                                 <div class="review-header">
@@ -161,12 +169,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="review-slide">
-                        <div class="card review-card" style="display: inline-block; max-width: 360px; margin: 0 16px 24px;">
-                            <div class="map-container">
-                                <div class="review-header">
-                                    <img src="profile-pic.png" alt="Google Review Profile Picture" style="width: 40px; height: 40px; border-radius: 50%; margin-right: 16px;">
-                                    <div class="review-info">
+                        <div class="review-row" style="display: flex; justify-content: center; @media (min-width: 768px) { justify-content: center; }">
+                            <div class="card review-card" style="display: inline-block; max-width: 360px; margin: 0 16px 24px;">
+                                <div class="map-container">
+                                    <div class="review-header">
+                                        <img src="profile-pic.png" alt="Google Review Profile Picture" style="width: 40px; height: 40px; border-radius: 50%; margin-right: 16px;">
+                                        <div class="review-info">
                                         <h3 style="font-size: 1.4rem; margin: 0 8px;">John Doe</h3>
                                         <p><i class="fas fa-star" style="color: #F7DC6F"></i><i class="fas fa-star" style="color: #F7DC6F"></i><i class="fas fa-star" style="color: #F7DC6F"></i><i class="fas fa-star" style="color: #F7DC6F"></i><i class="fas fa-star" style="color: #F7DC6F"></i></p>
                                     </div>
@@ -197,16 +205,16 @@
             <div class="work-carousel-wrapper">
                 <div class="work-carousel">
                     <div class="work-slide active">
-                        <img src="recent-placeholder.png" alt="Lawn mowing before and after">
+                        <img src="https://cdn.prod.website-files.com/62a6520d16a4c82ce7aba2af/6327a3673dca23800c348921_Zones-Millwater-New-Zealand-Judd-Stratful-decorative-greenery-tidy-lawn-top-soil-design-lawns-nursery-G-N2.jpeg" alt="Lawn mowing before and after">
                         <div class="work-caption">Complete Lawn Transformation Hamilton East</div>
                     </div>
                     <div class="work-slide">
                         <img src="recent-placeholder-1.png" alt="Hedge trimming project">
-                        <div class="work-caption">Hedge Trimming & Shaping Chartwell</div>
+                        <div class="work-caption">Garden Makeover Chartwell</div>
                     </div>
                     <div class="work-slide">
                         <img src="recent-placeholder-2.png" alt="Garden cleanup">
-                        <div class="work-caption">Full Comercial Green Waste Removal</div>
+                        <div class="work-caption">Full Comercial Mowing Huntington</div>
                     </div>
                     <!-- Duplicate or add more slides as you get real jobs -->
                 </div>
@@ -278,6 +286,10 @@
             });
         });
     </script>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+ <!-- OUR RECENT WORK SLIDER SCRIPT -->
+
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const carousel = document.querySelector(".work-carousel");
@@ -344,5 +356,3 @@
 </body>
 
 </html>
-
-
