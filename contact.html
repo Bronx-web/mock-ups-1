@@ -36,29 +36,13 @@
         </div>
     </section>
 
-    
-    <!-- Calendly CALENDER EMBED START -- -->
-
-<section class="booking-section">
-    <div class="container booking-column">
-
-        <!-- LEFT: Calendly in matching card --> 
-        <div class="booking-calendar" style="display: flex; justify-content: center;">
-            <div class="booking-card" style="width: 650px; margin: 0 auto;">
-                <div id="calendly-embed" style="min-width:320px;height:700px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-                    <div class="calendly-inline-widget" data-url="https://calendly.com/bronxweb/demo-mow-booking?hide_event_type_details=1&hide_gdpr_banner=1&background_color=#fcfcf6&primary_color=#ffffff" style="min-width:320px;height:660px;"></div>
-                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-                </div>
-            </div>
-        </div>
-        <br><br><br><br><br>
-
+    <br><br><br><br>
         <!-- RIGHT: "What happens after you book"  -->
         <div class="why-card why-column" style="width: 100%; max-width: 650px; margin: 0 auto;">
-            <p class="why-eyebrow">How Online Booking Works</p>
-            <h2 class="why-heading">What happens next?</h2>
+            <p class="why-eyebrow">What's next?</p>
+            <h2 class="why-heading">How Online Booking Works?</h2>
             <p class="why-intro">
-                Use the calendar to pick a day and time that suits you, then enter your contact details. No sign up required.
+                Use the calendar to pick a date/time, then enter your contact details. No sign up required.
             </p>
             <ul class="why-list">
                 <br>
@@ -73,7 +57,7 @@
                 </li>
                 <li>
                     <h3>Step 3: Wait for Cofirmation</h3>
-                    <p>We will call you to confirm your booking date & service.</p>
+                    <p>We will call to confirm your booking date/time & service.</p>
                 </li>
             </ul>
         </aside>
@@ -81,11 +65,31 @@
     </div>
 </section>
 
-    <!-- -- Calendly CALENDER EMBED END -- -->
+<br><br><br><br>
+
+
+
+<!-- Calendly CALENDER EMBED START -- -->
+
+<section class="booking-section">
+    <div class="container booking-column">
+
+        <!-- LEFT: Calendly in matching card -->
+        <div class="booking-calendar" style="display: flex; justify-content: center;">
+            <div class="booking-card" style="width: 650px; margin: 0 auto;">
+                <div id="calendly-embed" style="min-width:320px;height:700px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                    <div class="calendly-inline-widget" data-url="https://calendly.com/jakeheke213/sams-mowing-services-appointment?hide_event_type_details=1&hide_gdpr_banner=1&background_color=#fcfcf6&primary_color=#ffffff" style="min-width:320px;height:660px;"></div>
+                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br>
+
+    <!--------------------------------- WORK WITH US CONTACT FORM ------------------------->
 
     <section class="contact-section">
         <div class="container">
-            <h1>Send Enquiry</h1>
+            <h1>Work With Us</h1>
     
             <form class="form-container" action="#" method="post">
                 <!-- Name -->
@@ -96,7 +100,7 @@
     
                 <!-- Area -->
                 <div class="form-group">
-                    <label for="area">Aera / Address</label>
+                    <label for="area">Address</label>
                     <input type="text" id="area" name="area" placeholder="123 My Street, Hamilton East" required>
                 </div>
     
@@ -106,37 +110,47 @@
                     <div class="radio-group">
                         <div class="radio-item">
                             <input type="radio" id="job-recurring" name="jobtype" value="recurring" required>
-                            <label for="job-recurring">Recurring</label>
-                        </div>
+                            <label for="job-recurring">Contract</label>
+                          </div>
                         <div class="radio-item">
                             <input type="radio" id="job-oneoff" name="jobtype" value="one-off">
                             <label for="job-oneoff">Casual</label>
+                        <div class="radio-item">
+                                <input type="radio" id="job-fulltime" name="jobtype" value="full-time">
+                                <label for="job-fulltime">Full-Time</label>    
+                          </div>
+                        <div class="radio-item">
+                            <input type="radio" id="job-partnership" name="jobtype" value="partnership">
+                            <label for="job-partnership">Partnership</label>
+                          </div>
                         </div>
                     </div>
                 </div>
     
                 <!-- Dog on premises -->
                 <div class="form-group">
-                    <label>Dog on Premises</label>
+                    <label>When can you start</label>
                     <div class="radio-group">
                         <div class="radio-item">
-                            <input type="radio" id="dog-yes" name="dog" value="yes" required>
-                            <label for="dog-yes">Yes</label>
+                            <input type="radio" id="start-asap" name="start" value="asap" required>
+                            <label for="start-asap">ASAP</label>
                         </div>
                         <div class="radio-item">
-                            <input type="radio" id="dog-no" name="dog" value="no">
-                            <label for="dog-no">No</label>
+                            <input type="radio" id="start-notice" name="start" value="notice">
+                            <label for="start-notice">Need to give Notice</label>
                         </div>
                     </div>
                 </div>
     
                 <!-- Optional message -->
                 <div class="form-group">
-                    <label for="message">Anything else we should know?</label>
-                    <textarea id="message" name="message" placeholder="Gate access, hedge work, green waste removal, etc."></textarea>
+                    <label for="message">Upload your resume</label>
+                    <textarea id="message" name="message" placeholder="Upload your resume in PDF format"></textarea>
                 </div>
 
                 <button type="submit">Send</button>
+
+            <p class="disclaimer" style="font-size: 0.8rem; text-align: center;">By submitting this form, you agree to our <a href="privacy.html">Privacy Policy</a> and <a href="termsof-service.html">Terms of Service</a>.</p>
             </form>
         </div>
     </div>
@@ -161,6 +175,4 @@
     
 </body>
 
-
 </html>
-
